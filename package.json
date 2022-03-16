@@ -1,0 +1,30 @@
+{
+  "name": "node-start-project",
+  "version": "1.0.0",
+  "description": "Node project to start development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon -r dotenv/config app.js dotenv_config_path=development.env",
+    "prod": "nodemon -r dotenv/config app.js dotenv_config_path=production.env"
+  },
+  "keywords": [
+    "nodejs",
+    "node",
+    "dotenv",
+    "nodemon"
+  ],
+  "author": "Alberto Rizzi",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.6"
+  }
+}
