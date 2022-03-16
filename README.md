@@ -20,5 +20,5 @@ npm i
 ## Usage
 Create development.env or .env file do you want.
 ```sh
-npm run development
+npm run dev
 ```
